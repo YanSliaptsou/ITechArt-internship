@@ -1,0 +1,1 @@
+SELECT * FROM Products Where Price > 15 And Price < 40

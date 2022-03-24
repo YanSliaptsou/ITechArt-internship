@@ -1,0 +1,1 @@
+SELECT BirthDate, FirstName, LastName FROM Employees

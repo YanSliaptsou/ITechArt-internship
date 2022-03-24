@@ -1,0 +1,1 @@
+SELECT * FROM Employees WHERE BirthDate > '1960-01-01'

@@ -1,0 +1,1 @@
+SELECT * FROM Products WHERE ProductName LIKE 'G%' AND Price > 20

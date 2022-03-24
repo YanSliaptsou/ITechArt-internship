@@ -1,0 +1,1 @@
+SELECT * FROM Products Where Price = (SELECT MAX(Price) FROM Products)

@@ -1,0 +1,1 @@
+SELECT * FROM Employees WHERE YEAR(BirthDate) = 1958
