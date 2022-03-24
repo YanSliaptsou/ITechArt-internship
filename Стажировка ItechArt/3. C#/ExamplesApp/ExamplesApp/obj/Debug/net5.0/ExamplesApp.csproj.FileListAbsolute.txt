@@ -1,0 +1,16 @@
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\bin\Debug\net5.0\ExamplesApp.exe
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\bin\Debug\net5.0\ExamplesApp.deps.json
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\bin\Debug\net5.0\ExamplesApp.runtimeconfig.json
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\bin\Debug\net5.0\ExamplesApp.runtimeconfig.dev.json
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\bin\Debug\net5.0\ExamplesApp.dll
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\bin\Debug\net5.0\ref\ExamplesApp.dll
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\bin\Debug\net5.0\ExamplesApp.pdb
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\obj\Debug\net5.0\ExamplesApp.csproj.AssemblyReference.cache
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\obj\Debug\net5.0\ExamplesApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\obj\Debug\net5.0\ExamplesApp.AssemblyInfoInputs.cache
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\obj\Debug\net5.0\ExamplesApp.AssemblyInfo.cs
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\obj\Debug\net5.0\ExamplesApp.csproj.CoreCompileInputs.cache
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\obj\Debug\net5.0\ExamplesApp.dll
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\obj\Debug\net5.0\ref\ExamplesApp.dll
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\obj\Debug\net5.0\ExamplesApp.pdb
+D:\Стажировка ItechArt\3. C#\ExamplesApp\ExamplesApp\obj\Debug\net5.0\ExamplesApp.genruntimeconfig.cache
