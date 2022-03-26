@@ -37,9 +37,10 @@ namespace ExamplesApp
 
             int result = Sum2(1, 2, 3, 4, 5);
 
-            ReceiptEnterpreter<DesertReceipt> Receipt = new ReceiptEnterpreter<DesertReceipt>();
+            ReceiptEnterpreter<SaladReceipt> Receipt = new ReceiptEnterpreter<SaladReceipt>();
+            Receipt.ShowReceipt<DesertReceipt>();
 
-            Receipt.ShowReceipt();
+            //Receipt.ShowReceipt();
         }
     }
 
@@ -92,29 +93,54 @@ namespace ExamplesApp
 
 namespace Generics
 {
-    class DishReceipt
+    abstract class DishReceipt
     {
-        public virtual List<EngredientItem> Engredients { get; set; }
+        public abstract List<EngredientItem> GetEngredients();
     }
 
     class SaladReceipt : DishReceipt
     {
-        public override List<EngredientItem> Engredients { get => new List<EngredientItem> { new EngredientItem { Engredient = new Engredient { Name = "Salad engredient" }, Quantity = 1 } }; set => new List<EngredientItem> { new EngredientItem {Engredient = new Engredient { Name = "Salad engredient"}, Quantity = 1 } }; }
+        public override List<EngredientItem> GetEngredients()
+        {
+            return new List<EngredientItem>
+            {
+                new EngredientItem
+                {
+                    Name = "Салат",
+                    Quantity = 5
+                },
+                new EngredientItem
+                {
+                    Name = "Масло",
+                    Quantity = 1
+                }
+            };
+        }
     }
 
     class DesertReceipt : DishReceipt
     {
-        public override List<EngredientItem> Engredients { get => new List<EngredientItem> { new EngredientItem { Engredient = new Engredient { Name = "Desert engredient" }, Quantity = 1 } }; set => new List<EngredientItem> { new EngredientItem { Engredient = new Engredient { Name = "Desert engredient" }, Quantity = 1 } }; }
-    }
-
-    class Engredient
-    {
-        public string Name { get; set; }
+        public override List<EngredientItem> GetEngredients()
+        {
+            return new List<EngredientItem>
+            {
+                new EngredientItem
+                {
+                    Name = "Шоколад",
+                    Quantity = 2
+                },
+                new EngredientItem
+                {
+                    Name = "Мороженное",
+                    Quantity = 1
+                }
+            };
+        }
     }
 
     class EngredientItem
     {
-        public Engredient Engredient { get; set; }
+        public string Name { get; set; }
         public int Quantity { get; set; }
     }
 
@@ -124,9 +150,19 @@ namespace Generics
 
         public void ShowReceipt()
         {
-            foreach (var element in Receipt.Engredients)
+            foreach (var element in Receipt.GetEngredients())
             {
-                Console.WriteLine("Engredient - " + element.Engredient.Name + " Count - " + element.Quantity);
+                Console.WriteLine("Engredient - " + element.Name + " Count - " + element.Quantity);
+            }
+        }
+
+        public void ShowReceipt<K>() where K : DishReceipt, new()
+        {
+            K receipt = new K();
+
+            foreach(var element in receipt.GetEngredients())
+            {
+                Console.WriteLine($"Engredient - {element.Name}  Count - {element.Quantity}");
             }
         }
     }
