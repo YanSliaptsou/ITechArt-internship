@@ -1,0 +1,128 @@
+.flex-container {
+    display: flex;
+    border: 1px solid #ccc;
+}
+
+.row {
+    flex-direction: row;
+    position: absolute;
+    width: 99%;
+    height: 99%;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.flex-item {
+    text-align: center;
+    padding: 1.5em;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.flex-item-chats-list{
+    width: 30%;
+}
+
+.flex-item-chat-area{
+    width: 68%;
+}
+
+.padding-container {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.user-avatar {
+    border-radius: 50%;
+    width: 2.75%;
+    height: 5.7%;
+    border: 1px solid;
+    position: absolute;
+    padding-right: 3px;
+    margin-right: 0px;
+    margin-left: 19px;
+    margin-top: 17px;
+}
+
+
+input {
+    width: 209%;
+    height: 42px;
+    padding-left: 10px;
+    border-radius: 10px;
+    background: rgb(241, 241, 244);
+    border: none;
+    margin-left: -75%;
+}
+
+.button-phone
+{
+    width: 6%;
+    height: 91%;
+    padding-left: 3%;
+    border-radius: 10px;
+    background: rgb(241, 241, 244);
+    border: none;
+    margin-right: -25%;
+    margin-top: 0%;
+    display: inline-block;
+    margin-left: 69.7px;
+    padding-bottom: 1%;
+    margin-bottom: -3.77%;
+}
+
+.icons{
+    height: 69%;
+    width: 10%;
+    margin-left: 10%;
+}
+
+.calls:hover
+{
+    background: url(call-black.png);
+    background-repeat: no-repeat;
+}
+
+.chats:hover
+{
+    background: url(chat-black.png);
+    background-repeat: no-repeat;
+}
+
+.contacts:hover
+{
+    background: url(contacts-black.png);
+    background-repeat: no-repeat;
+}
+
+.nots:hover
+{
+    background: url(nots-black.png);
+    background-repeat: no-repeat;
+}
+
+.loop:hover
+{
+    background: url(loop-black.png);
+    background-repeat: no-repeat;
+}
+
+.pict:hover
+{
+    background: url(pict-black.png);
+    background-repeat: no-repeat;
+}
+
+.person:hover
+{
+    background: url(person-black.png);
+    background-repeat: no-repeat;
+}
+
+
+
+
