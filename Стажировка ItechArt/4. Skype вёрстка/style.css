@@ -123,6 +123,281 @@ input {
     background-repeat: no-repeat;
 }
 
+.header-user-nick {
+    padding-left: -44px;
+    border-left-width: 0px;
+    border-left-style: solid;
+    margin-left: -40%;
+}
 
+.user-avatar-status {
+    width: 1%;
+    margin-left: 3.5%;
+    margin-top: 3%;
+    position: absolute;
+}
 
+.user-balance {
+    position: absolute;
+    margin-left: 14%;
+}
 
+.user-update-status {
+    margin-left: 0%;
+    margin-top: -3%;
+    margin-right: 44%;
+    margin-bottom: 0%;
+}
+
+.inline-block-display {
+    display: inline-block;
+}
+
+.icons-container {
+    margin-left: -15%;
+}
+
+.rounded-icon {
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.rounded-icon-1 {
+    margin-left: 30%;
+    width: 284%;
+}
+
+.rounded-icon-2 {
+    margin-left: 38%;
+    width: 39%;
+}
+
+.text-block-rounded-icon {
+    margin-left: -10%;
+    margin-bottom: -8%;
+}
+
+.rounded-icon-image-1 {
+    width: 50%;
+    margin-left: -86%;
+}
+
+.rounded-icon-image-2 {
+    width: 50%;
+    margin-left: -192%;
+}
+
+.rounded-icon-label1 {
+    position: absolute;
+    margin-top: -2%;
+    margin-left: -1%;
+}
+
+.rounded-icon-label2 {
+    position: absolute;
+    margin-top: -2.4%;
+    margin-left: -2%;
+}
+
+.recent-chats-label {
+    text-align: initial;
+    font-family: Arial Black;
+    margin-left: 2%;
+}
+
+.user-avatar-chats-list {
+    margin-left: -14%;
+    margin-top: -1%;
+}
+
+.user-nick-chats-list {
+    padding-left: -44px;
+    border-left-width: 0px;
+    border-left-style: solid;
+    margin-left: -53%;
+    margin-top: -4%;
+}
+
+.chat-list-message-date {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: -3%;
+}
+
+.chat-list-meesage-text {
+    margin-left: 0%;
+    margin-top: -3%;
+    margin-right: 40%;
+    margin-bottom: -4%;
+}
+
+.messages-area {
+    height: 3%;
+    width: 67%;
+    top: 0px;
+    left: 29.7%;
+}
+
+.user-avatar-communicator {
+    margin-left: -49%;
+    height: 59%;
+    margin-top: -2.5%;
+    width: 3.7%;
+}
+
+.communicator-nickname {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -3%;
+    margin-left: -78%;
+}
+
+.communicator-status-in-networks-msg {
+    margin-top: -1.5%;
+    margin-left: -73%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.communicator-status-in-networks-img {
+    position: absolute;
+    width: 1.8%;
+    margin-top: -3.5%;
+    margin-left: -43%;
+}
+
+.nav-white-icon {
+    margin-top: -6%;
+    position: absolute;
+}
+
+.nav-white-icon1 {
+    margin-left: 63%;
+}
+
+.nav-white-icon2 {
+    margin-left: 70%;
+}
+
+.nav-white-icon3 {
+    margin-left: 77%;
+}
+
+.nav-blue-picture-block {
+    border: 1px solid black;
+    width: 5%;
+    position: absolute;
+    background: rgb(1,148,255);
+    border-radius: 50%;
+    height: 72%;
+    margin-top: -6%;
+}
+
+.nav-blue-picture-block1 {
+    margin-left: 84%;
+}
+
+.nav-blue-picture-block2 {
+    margin-left: 91%;
+}
+
+.nav-blue-picture-img {
+    width: 75%;
+    position: absolute;
+    margin-left: -35%;
+    margin-top: 11%;
+}
+
+.send-message-time {
+    color: rgb(76, 80, 82);
+    font-weight: 500;
+    position: absolute;
+    font-size: 85%;
+}
+
+.self-send-message-item {
+    margin-left: 89%;
+    margin-top: 1%
+}
+
+.communicator-send-message-item {
+    margin-left: 10%;
+    margin-top: 12%;
+}
+
+.partner-message-avatar {
+    margin-left: -43%;
+    height: 59%;
+    margin-top: 12%;
+    width: 3.7%;
+}
+
+.first-self-message {
+    border-radius: 10px 10px 0px 10px;
+}
+
+.any-message {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.self-meesage{
+    background: rgb(219,241,255);
+    height: 62%;
+    position: absolute
+}
+
+.self-meesage1 {
+    width: 14%;
+    margin-left: 78%;
+    margin-top: 3%;
+}
+
+.self-meesage2 {
+    width: 20%;
+    margin-left: 72%;
+    margin-top: 8%;
+}
+
+.self-meesage-text {
+    color: rgb(76,80,82);
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.communicator-message {
+    background: rgb(242,246,249);
+    height: 62%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.communicator-message1 {
+    width: 14%;
+    margin-top: 14%;
+}
+
+.communicator-message2 {
+    width: 30%;
+    margin-top: 19%;
+}
+
+.communicator-message-text1 {
+    color: rgb(76,80,82);
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.communicator-message-text2 {
+    color: rgb(76,80,82);
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+.meesage-input {
+    position: absolute;
+    width: 60%;
+    margin-left: -38%;
+    margin-top: 55%;
+    border-radius: 30px;
+}
